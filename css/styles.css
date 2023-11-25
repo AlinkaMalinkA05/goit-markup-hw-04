@@ -54,7 +54,6 @@ img {
   border-bottom: 1px solid #e7e9fc;
   margin: 0 auto;
 }
-
 .contact-info {
   font-style: normal;
 }
@@ -83,6 +82,15 @@ img {
 .logo-header {
   color: #2e2f42;
 }
+.link-studio::after {
+  display: block;
+  content: "";
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
+  margin-top: 20px;
+}
 .contact-menu {
   display: flex;
   gap: 40px;
@@ -102,7 +110,7 @@ img {
   letter-spacing: 0.02em;
   display: block;
   padding-top: 24px;
-  padding-bottom: 24px;
+  transition-property: color;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -119,6 +127,7 @@ img {
   letter-spacing: 0.02em;
   padding-top: 24px;
   padding-bottom: 24px;
+  transition-property: color;
 }
 .menu-link-studio:active {
   color: #404bbf;
@@ -177,6 +186,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  transition-property: background-color;
 }
 
 .order-btn:hover,
