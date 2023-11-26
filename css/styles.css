@@ -225,8 +225,7 @@ img {
 
   width: 64px;
 }
-
-.menu-info-item {
+---------------OUR TEAM section .menu-info-item {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -271,6 +270,26 @@ img {
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+}
+.menu-info-social-links {
+  display: flex;
+  gap: 24px;
+  margin: 8px 16px 32px;
+}
+
+.menu-info-social-icon {
+  display: flex;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+}
+.cocial-icon {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
 }
 .text-title {
   color: #2e2f42;
