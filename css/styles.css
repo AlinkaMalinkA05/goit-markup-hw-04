@@ -245,9 +245,6 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-info-shadow:hover,
-..menu-info-shadow:focus {
-}
 
 .menu-info-title {
   color: #2e2f42;
