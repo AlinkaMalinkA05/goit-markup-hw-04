@@ -423,18 +423,24 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1, 5; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  padding-bottom: 16px;
-  margin: auto 0;
+  margin-bottom: 16px;
 }
 
-.container-footer-links {
-  display: flex;
-  justify-content: center;
-}
 .menu-info-social-links {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.footer-info-container {
+  display: flex;
+  align-items: baseline;
+}
+.container-footer {
+  margin-right: 120px
+}
+.cards-footer {
+  gap: 16px;
 }
