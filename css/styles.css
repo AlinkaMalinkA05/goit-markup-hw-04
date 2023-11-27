@@ -260,12 +260,6 @@ img {
    border-radius:0px 0px 4px 4px;
   transition:  250ms; cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.menu-info-shadow:hover,
-.menu-info-shadow:focus {
-   background-color: #404bbf; 
-}
-
 .menu-info-title {
   color: #2e2f42;
   font-size: 20px;
@@ -321,9 +315,8 @@ img {
 }
 .menu-info-social-icon:hover,
 .menu-info-social-icon:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;;
 }
-
 .cocial-icon {
   width: 16px;
   height: 16px;
@@ -437,6 +430,10 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.footer-icon:hover,
+.footer-icon:focus {
+  background-color: #31d0aa;
 }
 
 .footer-info-container {
